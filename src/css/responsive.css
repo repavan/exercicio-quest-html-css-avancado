@@ -1,0 +1,84 @@
+@media(max-width: 425px){
+    header{
+        padding-left: 40px;
+        background-image: url(../images/bg-mobile.svg);
+        max-width: 200px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 280px;        
+        margin: 0 auto;
+        padding: 18px 0;
+    }
+
+    .container .quadro img{
+        height: 220px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .container .info{
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    } 
+    
+    .container .info h2{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    .container .info p{
+        font-size: 13.7px;
+        padding: 20px 0;
+    }
+
+    .container .info button{
+        padding: 10px 70px;
+    }
+
+    footer nav{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    footer nav i{
+        box-sizing: content-box;
+        height: 25px;
+        width: 25px;
+        padding: 8px;
+        align-content: center;
+        text-align: center;
+    }
+}
+
+@media(max-width: 995px){
+    header{
+        padding-left: 40px;
+        background-image: url(../images/bg-desktop.svg);
+        max-width: 250px;
+    }
+
+    .container{
+        display: flex;
+        max-width: 900px;        
+        margin: 0 auto;
+        padding: 18px 0;
+    }
+
+    .container .quadro img{
+        height: 350px;
+        width: 450px;
+        padding-bottom: 20px;
+    }
+
+    .container .info{
+        width: 450px;
+        padding: 20px 0 0 50px;
+    } 
+
+}
